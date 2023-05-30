@@ -1,3 +1,23 @@
+:root {
+  --black: #101010;
+  --black-darker: #000000;
+  --black-text: rgba(16, 16, 16, 1);
+  --black-light: rgba(16, 16, 16, 0.7);
+  --gray: #f6f4ef;
+  --gray-lighter: rgba(246, 244, 239, 0.5);
+  --white: #ffffff;
+  --white-text: rgba(255, 255, 255, 0.75);
+  --main: #b7a26d;
+  --main-darker: #99844f;
+  --main-lighter: rgba(183, 162, 109, 0.5);
+  --second: #b7a26d;
+  --red: #d12323;
+  --geen: #d12323;
+  --font-main: 'Mulish';
+  --font-headers: 'Marcellus SC';
+  --font-subheaders: 'Monsieur La Doulaise';
+}
+
 /**
  * Remove the margin in all browsers.
  */
@@ -14,19 +34,12 @@ body {
   background-color: darkgray;
 }
 
-/**
- * Main accent text color: #b7a26d
- * --main-darker: #99844f
- * --main-lighter: rgba(183,162,109,.5)
- */
-
 .container {
   width: 80%;
   margin: auto;
 }
 
 .navbar {
-  /* height: 5em; */
   background-color: gray;
 }
 
@@ -42,8 +55,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
-/* text-decoration: none; */
 
 .unorderlist-navbar > li a {
   padding: 1em;
