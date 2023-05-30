@@ -18,6 +18,10 @@
   --font-subheaders: 'Monsieur La Doulaise';
 }
 
+/* font-family: 'Marcellus SC', serif;
+font-family: 'Monsieur La Doulaise', cursive;
+font-family: 'Mulish', sans-serif; */
+
 /**
  * Remove the margin in all browsers.
  */
@@ -31,7 +35,9 @@
 body {
   /* margin: 0; */
   color: white;
-  background-color: darkgray;
+  /* background-color: darkgray; */
+  font-family: var(--font-main), sans-serif;
+  font-weight: 400;
 }
 
 .container {
@@ -39,8 +45,16 @@ body {
   margin: auto;
 }
 
+header {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(http://queeny.like-themes.com/wp-content/uploads/2019/06/SLIDE_04.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .navbar {
-  background-color: gray;
+  /* background-color: gray; */
 }
 
 .navbar-info {
@@ -60,4 +74,30 @@ body {
   padding: 1em;
   text-decoration: none;
   color: white;
+}
+
+.lte-subheader {
+  font-family: var(--font-subheaders), serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: var(--main);
+}
+
+.lte-header {
+  font-family: var(--font-headers), serif;
+  font-weight: 400;
+  font-size: 7.5rem;
+  color: var(--white);
+}
+
+.elementor-container {
+  margin: 3rem auto 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.elmentor-row {
+  padding: 0 2rem;
+  margin: 0 2rem;
+  line-height: 1.8em;
 }
