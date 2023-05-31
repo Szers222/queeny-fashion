@@ -33,8 +33,7 @@ font-family: 'Mulish', sans-serif; */
 }
 
 body {
-  /* margin: 0; */
-  color: white;
+  color: var(--black);
   /* background-color: darkgray; */
   font-family: var(--font-main), sans-serif;
   font-weight: 400;
@@ -51,6 +50,11 @@ header {
     url(http://queeny.like-themes.com/wp-content/uploads/2019/06/SLIDE_04.jpg);
   background-position: center;
   background-size: cover;
+  padding-bottom: 3rem;
+}
+
+.lte-bg-dark {
+  color: var(--white); /* contrast with its background*/
 }
 
 .navbar-info {
@@ -76,24 +80,37 @@ header {
   color: white;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.lte-heading {
+  margin: 3rem 0 2rem;
+}
+
+.lte-heading.lte-size-lg .lte-subheader {
+  font-size: 3rem;
+}
+
 .lte-subheader {
   font-family: var(--font-subheaders), serif;
   font-weight: 400;
-  font-size: 3rem;
   color: var(--main);
 }
 
 .lte-header {
   font-family: var(--font-headers), serif;
   font-weight: 400;
-  font-size: 7.5rem;
-  color: var(--white);
 }
 
-.elementor-container {
-  margin: 3rem auto 2rem;
-  padding: 2rem;
-  text-align: center;
+.lte-heading.lte-size-lg .lte-header {
+  font-size: 7.5rem;
 }
 
 .elmentor-row {
@@ -127,4 +144,73 @@ header {
 .dropdown > li:hover a {
   background-color: var(--main);
   color: var(--white);
+}
+
+.btn:hover {
+  background-color: var(--white);
+  color: var(--black);
+  cursor: pointer;
+}
+
+.btn {
+  display: block;
+  text-decoration: none;
+  background-color: var(--main);
+  color: var(--black);
+  font-family: var(--font-headers), serif;
+  text-align: center;
+  padding: 1.2rem 1.5rem;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.description {
+  padding: 2rem 0;
+}
+
+.elementor-row {
+  width: 100%;
+  display: flex;
+}
+
+.elementor-widget-wrap {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.elementor-widget-wrap .lte-heading .lte-subheader {
+  font-size: 1.875rem;
+}
+
+.elementor-widget-wrap .lte-heading .lte-header {
+  font-size: 3rem;
+}
+
+.elementor-column {
+  padding: 0.5rem;
+}
+
+.elementor-column.elementor-col-50 {
+  width: 50%;
+}
+
+.countUp-item {
+  padding: 0 0.5rem;
+}
+
+.countUp-item h2 {
+  color: var(--main);
+  font-size: 3rem;
+}
+
+.countUp-item h4 {
+  font-size: 1.5rem;
+}
+
+.img-col-50 {
+  width: 100%;
+  object-fit: cover;
 }
