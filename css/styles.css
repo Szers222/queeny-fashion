@@ -34,7 +34,6 @@ font-family: 'Mulish', sans-serif; */
 
 body {
   color: var(--black);
-  /* background-color: darkgray; */
   font-family: var(--font-main), sans-serif;
   font-weight: 400;
 }
@@ -88,6 +87,10 @@ header {
 
 .text-center {
   text-align: center;
+}
+
+.element-center {
+  margin: 0 auto;
 }
 
 .lte-heading {
@@ -146,9 +149,15 @@ header {
   color: var(--white);
 }
 
-.btn:hover {
+.btn.btn-bg-dark:hover {
   background-color: var(--white);
   color: var(--black);
+  cursor: pointer;
+}
+
+.btn.btn-bg-bright:hover {
+  background-color: var(--black);
+  color: var(--white);
   cursor: pointer;
 }
 
@@ -160,8 +169,9 @@ header {
   font-family: var(--font-headers), serif;
   text-align: center;
   padding: 1.2rem 1.5rem;
-  width: 20%;
-  margin: 0 auto;
+  width: 12rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .description {
@@ -171,6 +181,7 @@ header {
 .elementor-row {
   width: 100%;
   display: flex;
+  margin: 5rem 0;
 }
 
 .elementor-widget-wrap {
@@ -181,16 +192,27 @@ header {
   align-content: flex-start;
 }
 
-.elementor-widget-wrap .lte-heading .lte-subheader {
+.elementor-column-center {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.elementor-widget-wrap .lte-heading .lte-subheader,
+.elementor-column-center .lte-heading .lte-subheader {
   font-size: 1.875rem;
 }
 
-.elementor-widget-wrap .lte-heading .lte-header {
+.elementor-widget-wrap .lte-heading .lte-header,
+.elementor-column-center .lte-heading .lte-header {
   font-size: 3rem;
 }
 
 .elementor-column {
   padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .elementor-column.elementor-col-50 {
@@ -213,4 +235,23 @@ header {
 .img-col-50 {
   width: 100%;
   object-fit: cover;
+}
+
+.dark-pattern-bg {
+  background-image: url(http://queeny.like-themes.com/wp-content/uploads/2020/04/about-bg-20.png);
+  background-color: var(--black);
+  background-size: 30%;
+}
+
+.description {
+  width: 35rem;
+}
+
+.dividend {
+  border-bottom: 0.1rem dashed var(--gray-lighter);
+  width: 100%;
+}
+
+.lte-item a {
+  text-decoration: none;
 }
