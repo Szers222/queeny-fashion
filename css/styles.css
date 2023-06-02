@@ -177,8 +177,7 @@ header {
   text-align: center;
   padding: 1.2rem 1.5rem;
   width: 12rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
 .description {
@@ -250,6 +249,10 @@ header {
   background-size: 30%;
 }
 
+.dark-bg {
+  background-color: var(--black);
+}
+
 .description {
   width: 35rem;
 }
@@ -290,4 +293,39 @@ header {
 
 .row-content-center li:not(:last-child) {
   border-right: 1px dashed rgba(0, 0, 0, 0.25);
+}
+
+.summer-sale {
+  width: 100%;
+  background-image: url(http://queeny.like-themes.com/wp-content/uploads/2020/04/sale_banner.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 43rem;
+}
+
+.summer-sale .lte-header {
+  color: var(--main);
+}
+
+.summer-sale .elementor-col-50 {
+  padding: 6rem 5rem;
+}
+
+.summer-sale .description {
+  line-height: 2rem;
+}
+
+.partners-item img {
+  width: 50%;
+}
+
+.lte-products-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  padding: 1rem;
 }
