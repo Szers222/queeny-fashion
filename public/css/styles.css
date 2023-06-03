@@ -53,7 +53,7 @@ a {
 header {
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("http://queeny.like-themes.com/wp-content/uploads/2019/06/SLIDE_04.jpg");
+    url("../images/SLIDE_04.jpg");
   background-position: center;
   background-size: cover;
   padding-bottom: 3rem;
@@ -87,7 +87,6 @@ header {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -245,7 +244,7 @@ header {
 }
 
 .dark-pattern-bg {
-  background-image: url("http://queeny.like-themes.com/wp-content/uploads/2020/04/about-bg-20.png");
+  background-image: url("../images/about-bg-20.png");
   background-color: var(--black);
   background-size: 30%;
 }
@@ -301,7 +300,7 @@ header {
 
 .summer-sale {
   width: 100%;
-  background-image: url("http://queeny.like-themes.com/wp-content/uploads/2020/04/sale_banner.jpg");
+  background-image: url("../images/sale_banner.jpg");
   background-position: center center;
   background-size: cover;
   height: 43rem;
@@ -366,7 +365,7 @@ header {
 
 .testimonials {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("http://queeny.like-themes.com/wp-content/uploads/2020/04/testimonials_parallax_new.jpg");
+    url("../images/testimonials_parallax_new.jpg");
   min-height: 37.5rem;
   position: relative;
   background-position: center;
@@ -419,7 +418,7 @@ header {
 /* ***************** Footer *****************  */
 
 .lte-footer {
-  background-image: url("http://queeny.like-themes.com/wp-content/uploads/2019/06/footer-bg.jpg");
+  background-image: url("../images/footer-bg.jpg");
   min-height: 30rem;
   position: relative;
   background-position: center;
